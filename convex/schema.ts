@@ -50,6 +50,7 @@ export default defineSchema({
         time: v.string(),
         available: v.boolean(),
         oooWeeks: v.optional(v.array(v.string())),
+        sessionDates: v.optional(v.array(v.string())),
       }),
     ),
     expiresAt: v.number(),
